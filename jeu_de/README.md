@@ -21,15 +21,13 @@ JeuDe is a simple web application built using React that simulates a dice game. 
 To run this project locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/JeuDe.git
-    ```
+```bash
+ git clone https://github.com/your-username/JeuDe.git
+```
 2. Navigate to the project directory:
  ```bash
  cd JeuDe
 ```
-
 3.Install the required dependencies:
 ```bash
 npm install
@@ -41,7 +39,7 @@ npm start
 
 ## How to Play
 
-Click the "Jouer..." button to roll the dice.
-Try to match the rolled dice face with the target face (configured to 4 by default).
-The game keeps track of the number of attempts.
-Upon winning, a "Bravo Vous Avez Gagné" message will be displayed, and you can reset the game by clicking the "Reset" button.
+- Click the "Jouer..." button to roll the dice.
+- Try to match the rolled dice face with the target face (configured to 4 by default).
+- The game keeps track of the number of attempts.
+- Upon winning, a "Bravo Vous Avez Gagné" message will be displayed, and you can reset the game by clicking the "Reset" button.
