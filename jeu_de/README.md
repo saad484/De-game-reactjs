@@ -9,7 +9,6 @@ JeuDe is a simple web application built using React that simulates a dice game. 
 
 ## Features
 
-
 - Randomly rolls a dice face.
 - Counts the number of attempts.
 - Allows the user to reset the game upon winning.
