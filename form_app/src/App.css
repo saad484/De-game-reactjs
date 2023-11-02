@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+.logo-image {
+  width: 60px; /* Adjust the value to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
