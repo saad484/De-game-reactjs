@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Form from './components/Form';
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand navbar-light bg-light">
           <div className="container-fluid">
             <Link to="/" className="navbar-brand"><img src='pictures/electroplanet.png' alt='' className='logo-image'/></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +27,9 @@ function App() {
                 <li className="nav-item">
                   <Link to="/product" className="nav-link">Product</Link>
                 </li>
+                <li className="nav-item">
+                  <Link to="/form" className="nav-link">Login</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -36,6 +38,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/listProducts' element={<ListProducts />} />
           <Route path='/product' element={<Product />} />
+          <Route path='/form' element={<Form/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
