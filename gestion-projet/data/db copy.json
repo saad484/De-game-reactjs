@@ -1,0 +1,22 @@
+{
+   "products":[
+    {
+        "id" : 1,
+        "nom" : "HP",
+        "price": 7000,
+        "category": "IT"
+    },
+    {
+        "id" : 2,
+        "nom" : "DELL",
+        "price": 9600,
+        "category": "IT"
+    },
+    {
+        "id" : 3,
+        "nom" : "MACBOOK M2 2020",
+        "price": 12300,
+        "category": "IT"
+    }
+   ]
+}
